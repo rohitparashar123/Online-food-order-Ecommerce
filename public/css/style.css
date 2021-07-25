@@ -1,0 +1,251 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+.main_title {
+	position: relative;
+	top: -367px;
+	left: 240px;
+	color: #fff;
+	font-weight: bolder;
+}
+
+.main_desc {
+	position: relative;
+	top: -359px;
+	left: 193px;
+	font-size: 20px;
+	font-weight: 300;
+	color: #f4f4f4;
+}
+
+
+}
+.card_shadow {
+	
+	border-radius: 10px;
+	box-shadow: 1px 5px 5px #695555;
+}
+.input {
+	border-radius: 30px;
+	position: relative;
+	left: 0px;
+}
+#forget_password{
+	position: relative;
+	left: -82px;
+	color: blue;
+	text-transform: capitalize;
+	font-size: 16px;
+}
+#forget_password:hover{
+	text-decoration: underline;
+}
+.input_checkbox {
+	border-radius: 30px;
+	position: relative;
+	left: 60px;
+}
+#signin {
+	 position: relative;
+    top: 5px;
+    left: 20px;
+    font-size: 2.4rem;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+}
+#new_user {
+	position: relative;
+	left: 23px;
+	font-size: 16px;
+	top: 5px;
+	margin-bottom: 18px;
+}
+#account:hover{
+    text-decoration: underline;
+}
+hr {
+	width: 95%;
+	position: relative;
+	left: 10px;
+}
+#signin_button {
+	background-color: #1473e6;
+	border-color: #1473e6;
+	color: #fff;
+	border-radius: 30px;
+	text-transform: capitalize;
+	position: relative;
+	left: 370px;
+	font-size: 19px;
+	 
+}
+#signin_button:hover {
+	background-color: #ea4335;
+	border-color: #ea4335;
+	color: #fff;
+	border-radius: 30px;
+	text-transform: capitalize;
+	position: relative;
+	left: 370px;
+	font-size: 19px;
+	 box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+#signup_button {
+	background-color: #1473e6;
+	border-color: #1473e6;
+	color: #fff;
+	border-radius: 30px;
+	text-transform: capitalize;
+	position: relative;
+	left: 370px;
+	font-size: 16px;
+}
+#signup_button:hover {
+	background-color: #ea4335;
+	border-color: #ea4335;
+	color: #fff;
+	border-radius: 30px;
+	text-transform: capitalize;
+	position: relative;
+	left: 370px;
+	font-size: 16px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.form-group span {
+    font-size: 14px;
+    color: red;
+}
+.invalid-feedback {
+	position: relative;
+	left: 5px;
+    display: none;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: .875em;
+    color: #dc3545;
+}
+.icon {
+	position: relative;
+	top: -25px;
+	right: 55px;
+	float: right;
+}
+.btn-user {
+	font-size: 0.8rem;
+	border-radius: 30px;
+	padding: 0.75rem 1rem;
+}
+.btn-google {
+	color: #fff;
+	background-color: #ea4335;
+	border-color: #fff;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+.btn-google:hover {
+	color: #fff;
+	background-color: #e12717;
+	border-color: #e6e6e6;
+}
+.btn-google:focus,
+.btn-google.focus {
+	color: #fff;
+	background-color: #e12717;
+	border-color: #e6e6e6;
+	box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+.btn-facebook {
+	color: #fff;
+	background-color: #3b5998;
+	border-color: #fff;
+	font-size: 15px;
+}
+.btn-github {
+	color: #fff;
+	background-color: #000;
+	border-color: #fff;
+	font-size: 15px;
+}
+.btn-github:hover {
+	color: #fff;
+	background-color: #171717;
+	border-color: #e6e6e6;
+}
+.btn-facebook:hover {
+	color: #fff;
+	background-color: #30497c;
+	border-color: #e6e6e6;
+}
+.btn-facebook:focus,
+.btn-facebook.focus {
+	color: #fff;
+	background-color: #30497c;
+	border-color: #e6e6e6;
+	box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+
+/*login form responsive*/
+@media  screen and (max-width: 576px) {
+    .form_responsive{
+            position: relative;
+            top: -50px;
+            margin-bottom: 38px;
+    }
+     .form_responsive_register{
+            position: relative;
+            top: -20px;
+            margin-bottom: 38px;
+    }
+
+    .eye_position{
+    position: relative;
+    top: -30px;
+    left: 240px!important;
+    color: black;
+}
+#signin_button {
+	background-color: #1473e6;
+	border-color: #1473e6;
+	color: #fff;
+	border-radius: 30px;
+	text-transform: capitalize;
+	position: relative;
+	left: 192px;
+	top: -43px;
+	font-size: 19px;
+}
+#signup_button {
+	background-color: #1473e6;
+	border-color: #1473e6;
+	color: #fff;
+	border-radius: 30px;
+	text-transform: capitalize;
+	position: relative;
+	left: 183px;
+	top: -13px;
+	font-size: 16px;
+}
+#forget_password{
+	position: relative;
+	left: 34px;
+	top: -15px;
+	color: blue;
+	text-transform: capitalize;
+	font-size: 16px;
+}
+.long_error{
+	position: relative;
+	top: -10px!important;
+}
+#forget_password:hover{
+	text-decoration: underline!important;
+}
+    .display_none{
+        display: none;
+    }
+}
